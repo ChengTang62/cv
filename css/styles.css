@@ -17,12 +17,18 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
 }
 
 p {
@@ -41,7 +47,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
+a {
   color: #005660;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -58,7 +64,7 @@ a:hover {
 }
 
 .middle-container {
-  margin: 100px 0;
+  display: inline-block;
 }
 
 .bottom-container {
@@ -98,12 +104,14 @@ a:hover {
   left: 250px;
   bottom: 300px;
 }
+
 .profile-img {
   width: 40%;
   float: left;
   margin-right: 150px;
   margin: 60px;
 }
+
 .code-img {
   width: 25%;
   float: left;
@@ -118,5 +126,10 @@ a:hover {
 
 .profile {
   text-align: left;
-  padding: 30px;
+  padding-left: 100px;
+  width: 80%;
+}
+
+.title-text {
+  padding: 50px;
 }
