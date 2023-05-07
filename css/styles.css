@@ -1,14 +1,14 @@
 body {
   color: #40514E;
   margin: 0;
-  text-align: center;
+  text-align: left;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
   color: #66BFBF;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  margin: 20px auto 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .middle-container {
@@ -131,5 +131,5 @@ a:hover {
 }
 
 .title-text {
-  padding: 50px;
+  padding: 20px;
 }
